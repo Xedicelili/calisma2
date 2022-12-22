@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url('https://blog.lexpera.com.tr/content/images/2019/10/84931614_s.jpg');
+     background-size: cover;
+       background-repeat: no-repeat;
+       height:100vh;
+       font-family: 'Roboto', sans-serif;
+       background-position: center;
+
+  
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+  }
+  .header{
+    background-color:white;
+    margin-top: -18px;
+    padding:15px;
+      display:flex;
+      justify-content: space-between;
+     height: 50px;
+  align-items:center;
+  }
+
+  ul{
+       display:flex;
+       font-size:14px;
+    }
+  li{
+         margin-right:15px;
+     list-style:none;
+    }
+    li:hover{
+      color: blue;
+      cursor: pointer;
+    }
+  
+    .menu{
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+    
+    }
+    .button{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     gap: 20px;
+    }
+    .get {
+      height: 50px;
+      width: 110px;
+      background-color: blue;
+      color: white;
+      
+    }
+    .contact {
+      height: 50px;
+      width: 110px;
+      background-color: red;
+      color: white;
+
+    }
+  
